@@ -13,6 +13,7 @@ using namespace std;
    ***
     *
 */
+//for upper part
 void print9(int n){
     //space
     for(int i=0; i<n; i++){
@@ -35,6 +36,7 @@ void print9(int n){
     }
 
 }
+//for lower part
 
 void print(int n){
 

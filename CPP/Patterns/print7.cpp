@@ -11,7 +11,7 @@ void print7(int n){
 
     for (int i=0; i<n; i++){
         // space
-        for(int j=0; j<n-i-1; j++ ){
+        for(int j=0; j<n-i-1; j++ ){// for space we have n-i-1 that is for first row we want 4-0-1=3, for 2nd row we want 4-1-1=2, for 3rd row we have 4-2-1=1 to 
             cout<<" ";
         }
 

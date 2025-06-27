@@ -13,8 +13,8 @@ Rules are same
 */
 
 void print2(int n){
-    for(int i=0; i<n; i++){
-        for(int j=0; j<=i; j++){
+    for(int i=0; i<n; i++){// outer join i.e column part
+        for(int j=0; j<=i; j++){ // beacuse for every column i.e for every outer join there is number of stars in row same as line number of column
             cout<<"*";
         }
         cout<< endl;
